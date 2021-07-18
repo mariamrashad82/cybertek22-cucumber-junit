@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = "html:target/cucumber-report.html",
         features = "src/test/resources/features",
-        glue = "com/cybertek/step_definitions",
+        glue = "com/cybertek/step_definitions",//execute Hook annotation
         dryRun = false,
-        tags ="@login"
+        tags ="@wip"
 )
 public class CukesRunner {
 }

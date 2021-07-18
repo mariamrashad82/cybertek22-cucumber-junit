@@ -13,3 +13,10 @@ Scenario: search page title verification
     Given User is on Google home page
     When User searches for apple
     Then User should see apple in title
+
+
+
+  Scenario: User search title verification
+    Given User is on Google home page
+    When User searches for "wooden spoon"
+    Then User should see "wooden spoon" in the title
