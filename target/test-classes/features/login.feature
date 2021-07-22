@@ -21,7 +21,7 @@ Background: Assuming user is on the login page
       And   User enters student password
       Then  User should see the dashboard
 
-  @admin
+  @admin@employee
   Scenario: Login as admin
     When  User enters admin username
     And   User enters admin password
