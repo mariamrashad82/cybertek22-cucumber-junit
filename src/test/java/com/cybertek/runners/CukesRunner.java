@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cybertek/step_definitions",//execute Hook annotation
         dryRun = false,
-        tags ="@scenarioOutline"
+        tags ="@wip"
 
 )
 public class CukesRunner {
