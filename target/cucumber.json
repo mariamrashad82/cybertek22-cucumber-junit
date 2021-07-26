@@ -1,0 +1,3548 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-24T21:02:38.103Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to see all 12 months in months",
+        "description": "  dropdown",
+        "id": "examples-of-cucumber-data-table-implementations;user-should-be-able-to-see-all-12-months-in-months",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4834000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User is on the dropdowns page of practice tool",
+            "match": {
+              "location": "com.cybertek.step_definitions.DataTables_StepDefinitions.user_is_on_the_dropdowns_page_of_practice_tool()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 492000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User should see below info in month dropdown",
+            "match": {
+              "location": "com.cybertek.step_definitions.DataTables_StepDefinitions.user_should_see_below_info_in_month_dropdown(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "January"
+                ]
+              },
+              {
+                "cells": [
+                  "February"
+                ]
+              },
+              {
+                "cells": [
+                  "March"
+                ]
+              },
+              {
+                "cells": [
+                  "April"
+                ]
+              },
+              {
+                "cells": [
+                  "May"
+                ]
+              },
+              {
+                "cells": [
+                  "June"
+                ]
+              },
+              {
+                "cells": [
+                  "July"
+                ]
+              },
+              {
+                "cells": [
+                  "August"
+                ]
+              },
+              {
+                "cells": [
+                  "September"
+                ]
+              },
+              {
+                "cells": [
+                  "October"
+                ]
+              },
+              {
+                "cells": [
+                  "November"
+                ]
+              },
+              {
+                "cells": [
+                  "December"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:02:43.532Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Something happens",
+        "description": "",
+        "id": "examples-of-cucumber-data-table-implementations;something-happens",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "user should see below words displayed",
+            "match": {
+              "location": "com.cybertek.step_definitions.DataTables_StepDefinitions.user_should_see_below_words_displayed(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Apple"
+                ]
+              },
+              {
+                "cells": [
+                  "Kiwi"
+                ]
+              },
+              {
+                "cells": [
+                  "Orange"
+                ]
+              },
+              {
+                "cells": [
+                  "Strawberry"
+                ]
+              },
+              {
+                "cells": [
+                  "Mango"
+                ]
+              },
+              {
+                "cells": [
+                  "Tomato"
+                ]
+              },
+              {
+                "cells": [
+                  "Cucumber"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:02:43.550Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Library login example using data table",
+        "description": "",
+        "id": "examples-of-cucumber-data-table-implementations;library-login-example-using-data-table",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 447000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "user is on the login page of library app",
+            "match": {
+              "location": "com.cybertek.step_definitions.DataTables_StepDefinitions.user_is_on_the_login_page_of_library_app()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1090000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "user enters username and password as below",
+            "match": {
+              "location": "com.cybertek.step_definitions.DataTables_StepDefinitions.user_enters_username_and_password_as_below(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "librarian13@library"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "9rf6axdD"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1840000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 49,
+            "name": "user should see title is Library",
+            "match": {
+              "location": "com.cybertek.step_definitions.DataTables_StepDefinitions.user_should_see_title_is_something()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Examples of Cucumber data table implementations",
+    "description": "",
+    "id": "examples-of-cucumber-data-table-implementations",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dataTable.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-24T21:02:38.102Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Etsy default title verification",
+        "description": "",
+        "id": "etsy-search-feature;etsy-default-title-verification",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26563000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is on the Etsy landing page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_StepDefinition.user_is_on_the_etsy_landing_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user should see Etsy title as expected",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_StepDefinition.user_should_see_etsy_title_as_expected()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:03:04.785Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Etsy Search Functionality Title Verification",
+        "description": "",
+        "id": "etsy-search-feature;etsy-search-functionality-title-verification",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2429000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user is on the Etsy landing page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_StepDefinition.user_is_on_the_etsy_landing_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 684000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user types Wooden Spoon in the search bar",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_StepDefinition.user_types_wooden_spoon_in_the_search_bar()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3829000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "user clicks to search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_StepDefinition.user_clicks_to_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "user sees title is Wooden spoon | Etsy",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_StepDefinition.user_sees_title_is_wooden_spoon_etsy()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Etsy search feature",
+    "description": "  User story #/ Jira# AU756",
+    "id": "etsy-search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/etsySearch.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-24T21:02:38.098Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "search page title verification",
+        "description": "",
+        "id": "google-search-functionality;search-page-title-verification",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11338000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User is on Google home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Google_StepDefinitions.user_is_on_google_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User should see title is Google",
+            "match": {
+              "location": "com.cybertek.step_definitions.Google_StepDefinitions.user_should_see_title_is_google()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:02:49.862Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User search title verification",
+        "description": "",
+        "id": "google-search-functionality;user-search-title-verification",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1553000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User is on Google home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Google_StepDefinitions.user_is_on_google_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4825000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User searches for apple",
+            "match": {
+              "location": "com.cybertek.step_definitions.Google_StepDefinitions.user_searches_for_apple()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User should see apple in title",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:02:56.321Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User search title verification",
+        "description": "",
+        "id": "google-search-functionality;user-search-title-verification",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User is on Google home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Google_StepDefinitions.user_is_on_google_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4063000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User searches for \"wooden spoon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wooden spoon\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Google_StepDefinitions.userSearchesFor(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User should see \"wooden spoon\" in the title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wooden spoon\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Google_StepDefinitions.userShouldSeeInTheTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@google"
+          }
+        ]
+      }
+    ],
+    "name": "Google search functionality",
+    "description": "  Agile Story: As a user, when I am on the google search page,\n  I should be able to search whatever I want, and see relevant information",
+    "id": "google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/googleSearch.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Assuming user is on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User is on login page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.user_is_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:02:38.100Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login as librarian",
+        "description": "",
+        "id": "library-app-login-feature;login-as-librarian",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User enters librarian username",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.user_enters_librarian_username()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User enters librarian password",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.user_enters_librarian_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User should see the dashboard",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.user_should_see_the_dashboard()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@librarian"
+          },
+          {
+            "name": "@employee"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Assuming user is on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User is on login page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.user_is_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:02:38.163Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login as student",
+        "description": "",
+        "id": "library-app-login-feature;login-as-student",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User enters student username",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.userEntersStudentUsername()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User enters student password",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.userEntersStudentPassword()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see the dashboard",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.user_should_see_the_dashboard()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@student"
+          },
+          {
+            "name": "@ad"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Assuming user is on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User is on login page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.user_is_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:02:38.181Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login as admin",
+        "description": "",
+        "id": "library-app-login-feature;login-as-admin",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "User enters admin username",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.userEntersAdminUsername()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "User enters admin password",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.userEntersAdminPassword()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "User should see the dashboard",
+            "match": {
+              "location": "com.cybertek.step_definitions.Login_StepDefinitions.user_should_see_the_dashboard()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@admin"
+          },
+          {
+            "name": "@employee"
+          }
+        ]
+      }
+    ],
+    "name": "Library app login feature",
+    "description": "  User Story:\n  As a user, I should be able to login with correct credentials to different accounts. And dashboard should be displayed.\n  Accounts are: librarian, student, admin",
+    "id": "library-app-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 13
+        }
+      },
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-24T21:02:38.107Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Wikipedia Search Functionality Title Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-title-verification",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13464000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 588000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User types \"Steve Jobs\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4174000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User sees \"Steve Jobs\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheWikiTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:02:56.402Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 615000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User types \"Steve Jobs\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3934000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 530000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "User sees \"Steve Jobs\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:03:01.625Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification;search-terms-we-are-going-to-use-in-this-template-is-as-below;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 874000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User types \"Steve Jobs\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3160000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 917000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User sees \"Steve Jobs\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User sees \"Steve Jobs\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheWikiTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:03:06.774Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification;search-terms-we-are-going-to-use-in-this-template-is-as-below;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 403000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User types \"Albert Einstein\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Albert Einstein\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2665000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 565000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User sees \"Albert Einstein\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Albert Einstein\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 482000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User sees \"Albert Einstein\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Albert Einstein\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheWikiTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:03:11.034Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification;search-terms-we-are-going-to-use-in-this-template-is-as-below;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 561000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User types \"Nikola Tesla\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nikola Tesla\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1444000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User sees \"Nikola Tesla\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nikola Tesla\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User sees \"Nikola Tesla\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nikola Tesla\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheWikiTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:03:13.877Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification;search-terms-we-are-going-to-use-in-this-template-is-as-below;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 284000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User types \"Conor McGregor\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conor McGregor\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 982000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User sees \"Conor McGregor\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conor McGregor\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User sees \"Conor McGregor\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conor McGregor\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheWikiTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:03:15.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification;search-terms-we-are-going-to-use-in-this-template-is-as-below;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 301000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User types \"Chuck Norris\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chuck Norris\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 876000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User sees \"Chuck Norris\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chuck Norris\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User sees \"Chuck Norris\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chuck Norris\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheWikiTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:03:16.950Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification;search-terms-we-are-going-to-use-in-this-template-is-as-below;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User types \"Marie Curie\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marie Curie\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 953000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User sees \"Marie Curie\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marie Curie\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User sees \"Marie Curie\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marie Curie\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheWikiTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-24T21:03:18.446Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Wikipedia Search Functionality Header Verification",
+        "description": "",
+        "id": "wikipedia-search-functionality;wikipedia-search-functionality-header-verification;search-terms-we-are-going-to-use-in-this-template-is-as-below;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_is_on_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User types \"Natalie Dormer\" in the wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Natalie Dormer\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userTypesInTheWikiSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 742000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.user_clicks_wiki_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User sees \"Natalie Dormer\" is in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Natalie Dormer\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User sees \"Natalie Dormer\" is in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Natalie Dormer\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Wiki_StepDefinition.userSeesIsInTheWikiTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterSetUp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline"
+          }
+        ]
+      }
+    ],
+    "name": "Wikipedia search functionality",
+    "description": "  As a user, I should be able to search terms and see relevant information\n  Case: Search for \"Steve Jobs\", the title, the header, and the image header\n  should be displayed as \"Steve Jobs\"",
+    "id": "wikipedia-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/wikiSearch.feature",
+    "tags": []
+  }
+]

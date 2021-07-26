@@ -28,6 +28,7 @@ public class Hooks {
        //scenario class come from selenium
     // scenario.isFailed();
 
+
         if(scenario.isFailed()){
 
             byte [] screenshot = ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BYTES);

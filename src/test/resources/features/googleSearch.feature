@@ -16,7 +16,7 @@ Feature: Google search functionality
     Then User should see apple in title
 
 
-
+@google
   Scenario: User search title verification
     Given User is on Google home page
     When User searches for "wooden spoon"
